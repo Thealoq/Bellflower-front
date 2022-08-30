@@ -1,8 +1,8 @@
 import img from "../assets/Group.png";
 import Logo from "../assets/logo.png";
-
 import { IoTicketSharp } from 'solid-icons/io'
-import { FaSolidServer } from 'solid-icons/fa'
+import { FaSolidServer,FaSolidTerminal } from 'solid-icons/fa'
+import { HiSolidUsers } from 'solid-icons/hi'
 import Card from "../components/Helper/HomeCard"
 
 import "../layout/layout.css"
@@ -43,6 +43,7 @@ export default function HomePage() {
 
   return (
     <div>
+    
       <div className="home-page">
         <div className='test'>
           <div className="titlegod">
@@ -93,10 +94,10 @@ export default function HomePage() {
             <FaSolidServer size={32} color="#A340AE" /> <span>0 Sunucu</span>
           </div>
           <div className="icons">
-            <FaSolidServer size={32} color="#A340AE" /><span>0 Kullancılar</span>
+            <HiSolidUsers size={32} color="#A340AE" /><span>0 Kullancılar</span>
           </div>
           <div className="icons">
-            <FaSolidServer size={32} color="#A340AE" /><span>0 Komut</span>
+            <FaSolidTerminal size={32} color="#A340AE" /><span>2 Komut</span>
           </div>
         </div>
       </div>

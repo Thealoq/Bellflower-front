@@ -222,6 +222,57 @@
     margin-left: 6rem;
 }
 
+
+.navbar-hello{
+    display: none;
+}
+
+
+.modals {
+    top: 0;
+    left: 0;
+    background-color: #863BB4;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    padding: 0rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.heelloborher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90%;
+    margin-left: 70%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.hopkardesim{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50%;
+}
+
+.hopkardesim span {
+    font-size: 2.5rem;
+}
+
+.hopkardesimcard {
+    margin-top: 1rem;
+}
+
 @media only screen and (max-width: 1500px) {
     .nav-text-bg {
         display: none;
@@ -290,4 +341,79 @@
     .footer {
         padding: 1rem 2rem;
     }
+
+    .navbar-hello {
+        display: flex;
+    }
 }
+
+.commads-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -23rem;
+}
+
+.textiy {
+    margin-top: -1rem;
+    color: #dcdcff;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-commads {
+    margin-top: 2rem;
+}
+
+.text-commads span  {
+    font-size: 1.5rem;
+}
+
+.text-commads > div {
+    padding: 0.3rem;
+}
+
+
+
+.commads-home img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+    margin-left: 2rem;
+    height: auto;
+}
+
+.commads-box select{
+   border: solid 2px #8C30F5;
+   background-color: transparent;
+   color:white;
+   border-radius: 2px;
+   width: 800px;
+   height: 70px;
+   padding: 1rem; 
+}
+
+.commands-page {
+    height: 100vh;
+}
+
+.commads-box option{
+    border: solid 2px #8C30F5  !important; 
+    background-color: #9061F9 !important;
+    color:white;
+    border-radius: 12px !important;
+    width: 100px;
+ }
+ 
+ .commads-box select:hover {
+    background-color: #1E1F3C;
+ }
+ 
+ .commads-box option:active {
+    background-color: #1E1F3C;
+ }

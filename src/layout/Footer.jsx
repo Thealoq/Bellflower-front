@@ -6,15 +6,15 @@ export default function Footer() {
    const NewArray = [
     {
     icon: <AiFillGithub size={32} color="white"/>,
-    link: "wqe"
+    link: "https://github.com/Thealoq"
    },
    {
     icon: <AiOutlineInstagram size={32} color="white"/>,
-    link: "wqe"
+    link: "https://www.instagram.com/thealoq/"
    },
    {
     icon: <AiFillYoutube size={32} color="white"/>,
-    link: "wqe"
+    link: "https://www.youtube.com/channel/UCdRdD1r4IB0xI9PcFoTkLBg"
    }
 ]
 
