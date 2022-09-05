@@ -77,7 +77,7 @@ export default function HomePage() {
                 <span>Destek Sistemi</span>
               </div>
               <div style={{ color:"white" }} className="card-descript">
-                <span>EnderBot'un en gelişmiş sistemlerinden biri olan destek sisteminde, kullanıcı ekleyip çıkartma, yetkili ayarlama (rol ile), buton ile destek açılmasını sağlama, özelleştirilmiş mesajlar gibi bir çok özellik vardır.</span>
+                <span>test'un en gelişmiş sistemlerinden biri olan destek sisteminde, kullanıcı ekleyip çıkartma, yetkili ayarlama (rol ile), buton ile destek açılmasını sağlama, özelleştirilmiş mesajlar gibi bir çok özellik vardır.</span>
               </div>
             </div>
           </div>

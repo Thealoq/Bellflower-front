@@ -247,8 +247,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -90%;
-    margin-left: 70%;
 }
 
 a {
@@ -262,7 +260,6 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 50%;
 }
 
 .hopkardesim span {
@@ -273,7 +270,7 @@ a {
     margin-top: 1rem;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1100px) {
     .nav-text-bg {
         display: none;
     }
@@ -417,3 +414,20 @@ a {
  .commads-box option:active {
     background-color: #1E1F3C;
  }
+  
+
+ .banner img {
+    width: 800px;
+ }
+
+
+
+.divim {
+    margin-top: -35rem;
+}
+
+
+.texttwobruh {
+    margin-top: -1rem;
+    font-size: 1.3rem;
+}

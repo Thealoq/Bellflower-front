@@ -1,6 +1,26 @@
 import img from "../assets/pc.png"
 import { MdSettings } from 'react-icons/md'
 export default function Commands() {
+
+  const newArray = [
+    {
+        name:"help",
+        Commands: "help"
+    },
+    {
+        name:"help",
+        Commands: "help"
+    },
+    {
+        name:"help",
+        Commands: "help"
+    },
+    {
+        name:"help",
+        Commands: "help"
+    },
+   ]
+    
     return (
         <div className="commands-page">
             <div className="commads-home">
@@ -13,12 +33,13 @@ export default function Commands() {
             <div className="center textiy"><p> Bellflower Bot'un komutları hakkında bilgi alabilirsiniz.</p></div>
             <div className="center commads-box">
                 <select name="commands" id="cars">
-                    <option value="help">/help</option>
-                    <option value="help">/help</option>
-                    <option value="help">/help</option>
-                    <option value="help">/help</option>
-                    <option value="help">/help</option>
-                    <option value="help">/help</option>
+                    {
+                        newArray.map((item, index) => {
+                            return (
+                                <option value={item.name}>/{item.Commands}</option>
+                            )
+                        })
+                    }
                 </select>
             </div>
         </div>

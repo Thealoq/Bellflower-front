@@ -3,6 +3,7 @@ import Home from './page/Home';
 import Commands from './page/Commands';
 import Navbar from './layout/Navbar';
 import Footer from './layout/Footer';
+import NotFound from './page/NotFound';
 
 import {
   BrowserRouter as Router,
@@ -23,6 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path='/commands' element={ <Commands /> } />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </div>
